@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../images/logo.png';
-import {UilSearch} from '@iconscout/react-unicons'
+import {UilSearch} from '@iconscout/react-unicons';
 import './LogoSearch.css';
 
 
@@ -8,7 +8,8 @@ const LogoSearch = () => {
   return (
     <div className="LogoSearch">
        <img src={Logo} alt="" />
-       <div className="Search">
+      {/* <h6>Meta<span style={{color:"orange", fontSize:"18px"}}>Kids</span></h6> */}
+      <div className="Search">
        <input type="text" placeholder='#Explore' />
        <div className="s-icon">
         <UilSearch />
